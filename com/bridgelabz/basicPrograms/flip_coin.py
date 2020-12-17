@@ -1,12 +1,13 @@
 import random
 
-n = 0
-
 
 def flipCoin():
     heads = 0  # track heads amount
     tails = 0  # track tails amount
-    n = int(input("How many times DO you want to Flip Coin?"))
+    try:
+        n = int(input("How many times DO you want to Flip Coin?"))
+    except Exception:
+        print("Integer Required")
     if n >= 0:
         for i in range(n):  # run the experiment n times
             coin = random.randint(0, 1)  # assign a value to coin, either 0 or 1
@@ -25,6 +26,6 @@ def flipCoin():
         print("Enter the positive Number:")
 
 
-# Driver code
+
 
 flipCoin()
