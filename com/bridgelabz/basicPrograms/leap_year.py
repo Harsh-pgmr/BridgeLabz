@@ -1,4 +1,12 @@
-
+"""
+ ******************************************************************************
+ *  Purpose: Checks weather user input is leap year or not
+ *
+ *  @author  Harhad B
+ *  @version 3.8
+ *  @since   17/12/2020
+ ******************************************************************************
+"""
 year = int(input("Please Enter the Year : ")) # Taking the year input
 y = year # Storing the input
 Count = 0
