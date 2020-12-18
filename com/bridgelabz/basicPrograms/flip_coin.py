@@ -1,3 +1,11 @@
+"""
+ ******************************************************************************
+ *  Purpose: Shows the the percentage of head and tails when coin is flipped multiple times
+ *  @author  Harhad B
+ *  @version 3.8
+ *  @since   17/12/2020
+ ******************************************************************************
+"""
 import random
 
 
@@ -24,8 +32,6 @@ def flipCoin():
         print("Tails percent: " + str(tailspercent))  # converting numbers to string by str()
     else:
         print("Enter the positive Number:")
-
-
 
 
 flipCoin()
