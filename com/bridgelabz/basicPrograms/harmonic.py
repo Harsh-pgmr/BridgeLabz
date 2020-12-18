@@ -1,3 +1,12 @@
+"""
+ ******************************************************************************
+ *  Purpose: Prints the nth value of harmonic number
+ *
+ *  @author  Harhad B
+ *  @version 3.8
+ *  @since   17/12/2020
+ ******************************************************************************
+"""
 print("Function to find N-th Harmonic Number")
 
 
