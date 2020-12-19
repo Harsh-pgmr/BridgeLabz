@@ -1,6 +1,6 @@
 def wind_mill():
     try:
-        while True
+        while True:
             temperature = int(input("Enter the Temperature from '0' to '50':"))
             if (temperature >= 0) and (temperature <= 50):
                 print()
