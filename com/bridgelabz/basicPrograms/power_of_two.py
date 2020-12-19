@@ -1,3 +1,12 @@
+"""
+ ******************************************************************************
+ *  Purpose:Prints the power and checks weather number is leap year or not
+ *
+ *  @author  Harhad B
+ *  @version 3.8
+ *  @since   17/12/2020
+ ******************************************************************************
+"""
 n = int(input("Enter the number:"))
 for i in range(pow(2, n)):
     print("2 *", i, " = ", (2 * i))  #
