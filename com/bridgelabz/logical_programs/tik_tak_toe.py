@@ -1,6 +1,6 @@
 """
  ******************************************************************************
- *  Purpose: To play gambler game
+ *  Purpose: To check who wins in tic tok toe game
  *
  *  @author  Harshad B
  *  @version 3.8
