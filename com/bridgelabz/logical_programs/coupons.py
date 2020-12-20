@@ -11,12 +11,8 @@ import random
 
 
 class Coupons:
-    def get_Coupons(self, number):
-        """
-        Description:
-        :param num: takes num as a integer value to decide num of coupons to be generated
-        :return: returns all unique coupons numbers as list.
-        """
+    def logic(self, number):
+
         total_Coupons = []
 
         for i in range(number):
@@ -29,7 +25,7 @@ class Coupons:
 
 
 if __name__ == '__main__':
-    while True:
+    while True:  # exception blocks
         try:
             number_ofCoupons = int(input("Enter number of two digits coupons numbers:"))
 
@@ -37,7 +33,7 @@ if __name__ == '__main__':
                 print("Please enter between 10 and 500 ")
                 continue
             coupon_Obj = Coupons()
-            distinct_Coupons = coupon_Obj.get_Coupons(number_ofCoupons)
+            distinct_Coupons = coupon_Obj.logic(number_ofCoupons)
             print(distinct_Coupons)
             break
         except Exception:
