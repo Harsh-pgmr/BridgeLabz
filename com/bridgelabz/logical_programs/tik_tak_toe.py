@@ -97,7 +97,7 @@ if __name__ == '__main__':
             tictactoe_Obj = TicTacToe()
 
             tictactoe_Obj.printBoard()  # prints the board
-            choice = int(input("Enter your choice number:"))  # Enters the player moves
+            choice = int(input("Enter your number of your choice from 1 to 9:"))  # Enters the player moves
             tictactoe_Obj.userInput(choice)  # places the player moves on the board
 
             bot = tictactoe_Obj.randomNumber()  # Generates random number for bot moves
