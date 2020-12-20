@@ -30,7 +30,7 @@ class Gambler:
                 break
             total_Bets = win + loss
 
-        loss_Percent = (loss * 100) / total_Bets
+        loss_Percent = (loss * 100) / total_Bets  # to Calculate win percentage
         win_Percent = (win * 100) / total_Bets
         print("bal=", balance, "winsPercent=", round(win_Percent, 2), "%", "lossPercent=", round(loss_Percent, 2), "%",
               "Totalbets=", total_Bets)
