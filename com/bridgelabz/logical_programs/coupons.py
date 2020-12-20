@@ -1,6 +1,6 @@
 """
  ******************************************************************************
- *  Purpose: To play gambler game
+ *  Purpose: Given N distinct Coupon Numbers, how many random numbers do you need to generate distinct coupon number? This program simulates this random process.
  *
  *  @author  Harshad B
  *  @version 3.8
